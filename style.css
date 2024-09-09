@@ -1,0 +1,70 @@
+/* Set the content width and center align it */
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* Center the content */
+.container {
+  text-align: center;
+}
+
+/* Apply sans-serif font to all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, sans-serif;
+}
+
+/* Set top margin for headings larger than bottom to follow internal and external spacing rules */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* Set the font size for level 1 headings */
+h1 {
+  font-size: 32px;
+}
+
+/* Style tables with a 1px solid black border */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+/* Caption styling below images */
+figcaption {
+  font-style: italic;
+}
+
+/* Images with text wrapping, image on the right, text on the left */
+.image-wrap {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.image-wrap img {
+  display: block;
+}
+
+.text-wrap {
+  display: inline-block;
+  width: calc(100% - 50%);
+  vertical-align: top;
+}
